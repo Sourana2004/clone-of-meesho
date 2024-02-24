@@ -1,0 +1,341 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+html,body{
+    width : 100%;
+    height: 100%;
+}
+.navbar{
+    height:70px;
+    border-bottom:1px solid rgb(171, 177, 180);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first-box{
+    margin-left:80px;
+    color:rgba(150, 12, 125, 0.966);
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search-input{
+    height: 40px;
+    width:550px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.third-box{
+    display: flex;
+    font-size: 20px;
+}
+.third-box-font{
+  margin-left: 8px;
+}
+.bor-style{
+  font-size: 40px;
+  color: rgb(171, 177, 180);
+}
+.fourth-box{
+    font-size: 20px;
+}
+.fifth-box{
+    font-size:20px;
+}
+/**second navbar**/
+.nav-2{
+    height:50px;
+    border-bottom:1px solid rgb(171, 177, 180);
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner_and_image{
+    display:flex;
+}
+.upper_main_box{
+    height: 340px;
+    width:400px;
+    background-color: rgba(241, 232, 244, 0.927);
+    margin-top: 50px;
+    margin-left:310px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.banner_heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color:rgb(70, 73, 75);
+}
+.banner_text{
+    margin-left: 30px;
+   
+}
+
+.sub-box{
+    background-color:white;
+    height:50px;
+    width:300px;
+    margin:30px;
+    font-size:10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    font-size:15px;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+
+}
+.download-button{
+    background-color: rgba(140, 9, 131, 0.861);
+    height:35px;
+    width:200px;
+    margin-left:30px;
+}
+.download-button{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    border-top-left-radius:4px;
+    border-top-right-radius:4px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+}
+.playstore-logo{
+    background-image:url("playstoreSmallIcon.png");
+    height:27px;
+    width:23px;
+}
+.play-logo-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:13px;
+    color: white;
+}
+.ban-img{
+    background-image: url("first_image.webp");
+    height:340px;
+    width:480px;
+    margin-top:50px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.heading{
+    text-align: center;
+    margin-top:50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(70, 73, 75);
+}
+.banner1{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height:650px;
+    width:1400px;
+    margin-top:50px;
+    margin-left:40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.women-store{
+    background-image:url("women_store.webp");
+    height:550px;
+    width:480px;
+    background-size:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.men-store{
+    background-image: url("men_store.webp");
+    height:380px;
+    width:410px;
+    background-size: cover;
+}
+.kid-store{
+    background-image: url("kid_store.webp");
+    height:380px;
+    width:410px;
+    background-size: cover;
+}
+.banner2{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height:650px;
+    width:1400px;
+    margin-top:50px;
+    margin-left:40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text_and_button{
+    background-color: solid transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.view-all-button{
+background-image: url("view_all.webp");
+height:70px;
+width:200px;
+margin-top:15px;
+margin-left:20px;
+}
+.home_decor-img{
+    background-image: url("home_decor_img.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.home_decor-button{
+    background-image: url("home_decor.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.kichen_img{
+    background-image: url("kichen_img.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.kitchen-button{
+    background-image: url("kitchen_button.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.health_care-img{
+    background-image: url("healthcare_img.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.health_care-button{
+    background-image: url("healthcare_button.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.banner3{
+    background-image: url("background.jpg");
+    background-size: cover;
+    height:650px;
+    width:1400px;
+    margin-top:50px;
+    margin-left:40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text_and_button2{
+    background-color: solid transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.accessories-img{
+    background-image: url("accessories_img.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.accessories-button{
+    background-image: url("accessories_button.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.footwear-image{
+    background-image: url("footwear_image.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.footwear-button{
+    background-image: url("footwear_button.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.elect-img{
+    background-image: url("elect-img.webp");
+    height:460px;
+    width:280px;
+    background-size: cover;
+    border-bottom-left-radius:15px ;
+    border-bottom-right-radius:15px ;
+}
+.elect-button{
+    background-image: url("elect_button.webp");
+    height:70px;
+    width:200px;
+    background-size:cover;
+    margin-left:35px;
+}
+.end_banner{
+    background-image: url("downloadBannerDesktop_1050.webp");
+    background-size: cover;
+    height:450px;
+    width:800px;
+    margin-top:50px;
+    margin-left:340px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.first-text{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(56, 123, 232);
+    margin-left: 450px;
+    
+}
+.sec-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+    margin-left:185px;
+    color:rgba(180,64, 158, 0.966);
+}
+.third-text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:45px;
+    margin-left:280px;
+    color:rgba(180, 64, 158, 0.966); 
+}
